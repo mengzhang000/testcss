@@ -1,311 +1,246 @@
-.jw-icon {
-    font-family: 'jw-icons';
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-weight: normal;
-    text-transform: none;
-    background-color: transparent;
-    font-variant: normal;
-    -webkit-font-feature-settings: "liga";
-    -moz-font-feature-settings: "liga=1";
-    -moz-font-feature-settings: "liga";
-    -ms-font-feature-settings: "liga" 1;
-    -o-font-feature-settings: "liga";
-    font-feature-settings: "liga";
-    -moz-osx-font-smoothing: grayscale
-}
-
-/* Use this class to set a global background color for all elemnts. */
-.jw-skin-baeble .jw-background-color {
-  background: #000;
-}
-
-/* This is the class that houses all controls. Use this to adjust the appearance of the entire controlbar. */
-.jw-skin-baeble .jw-controlbar {
-  border-top: #333 1px solid;
-  height: 2.5em;
+@charset "utf-8";
+/* CSS Document */
+/* The main class for styling the controlbar. */
+.jw-skin-ethan .jw-controlbar {
+  background: red;
+  border-top: yellow 1px solid;
+  height: 3.5em;
 }
 
 
-/* Vertically aligns the timeslider and icons in the center of the controlbar. */
-.jw-skin-baeble .jw-group {
-  vertical-align: middle;
+/* The color for all icons in the control bar whebn they are not hoverd on. */
+.jw-skin-ethan .jw-icon,
+.jw-skin-ethan .jw-text,
+.jw-skin-ethan .jw-icon-inline {
+  color: blue;
 }
 
-/* Sets the style for the visual playlist. */
-
-.jw-skin-baeble .jw-playlist {
-  background-color: rgba(0, 0, 0, 0.8);
+/* Sets the spacing between icon containers within the control bar. */
+.jw-skin-ethan .jw-text,
+.jw-skin-ethan .jw-icon-inline,
+.jw-skin-ethan .jw-icon-tooltip {
+  padding: 0px 5px 3px 5px;
 }
 
-/* Aligns the visual playlist above its icon. */
-
-.jw-skin-baeble .jw-playlist-container {
-  left: -43%;
-  background-color: rgba(0, 0, 0, 0.8);
+ /* Sets the space between the icons and the border */
+.jw-skin-ethan .jw-icon:before {
+  padding-left: 1em;
 }
 
-/* Sets the style for the visual playlist items. */
-.jw-skin-baeble .jw-playlist-container .jw-option {
-  border-bottom: 1px solid #444;
-}
+/* The color for all icons in the control bar when they are hoverd on or are activated. */
 
-/* Allows you to adjust the color of the playlist item when hovering and has a different active style.*/
-
-.jw-skin-baeble .jw-playlist-container .jw-option:hover,
-.jw-skin-baeble .jw-playlist-container .jw-option.jw-active-option {
-  background-color: black;
-}
-
-/* Changes the color of the label when hovering.*/
-
-.jw-skin-baeble .jw-playlist-container .jw-option:hover .jw-label {
-  color: #f37821;
-}
-
-/* Aligns the playlist header icon with the items in the playlist. */
-.jw-skin-baeble .jw-playlist-container .jw-icon-playlist {
-  margin-left: 0;
-}
-
-/* Sets the color of the play icon of the currently playing playlist item.*/
-.jw-skin-baeble .jw-playlist-container .jw-label .jw-icon-play {
-  color: #f37821;
-}
-
-/* Aligns the playlist play icon with the items in the playlist. */
-.jw-skin-baeble .jw-playlist-container .jw-label .jw-icon-play:before {
-    padding-left: 0
-}
-
-/* Sets the color of the playlist title */
-.jw-skin-baeble .jw-tooltip-title {
-    background-color: #000;
-    color: #fff
-}
-
-/* Style for playlist item, current time, qualities, and caption text.*/
-.jw-skin-baeble .jw-text {
-  color: #ffffff;
-}
-
-/* Color for all buttons when they are inactive. This is over-ridden with the 
-inactive configuration in the skin block.*/
-.jw-skin-baeble .jw-button-color {
-  color: #ffffff;
+.jw-skin-ethan .jw-icon:hover,
+.jw-skin-ethan .jw-icon:before:hover {
+  color: #ff9600;
 }
 
 
-/* Color for all buttons for when they are hovered on. This is over-ridden with the 
-active configuration in the skin block.*/
-
-.jw-skin-baeble .jw-button-color:hover {
-  color: #f37821;
-}
-
-
-/* Color for when HD/CD icons are toggled on. */
-.jw-skin-baeble .jw-toggle {
-  color: #f37821;
-}
-
-/* Color for when HD/CD icons are toggled off. */
-.jw-skin-baeble .jw-toggle.jw-off {
-  color: #ffffff;
-}
-
-/* Sets spacing between controlbar icons and text */
-.jw-skin-baeble .jw-controlbar .jw-icon:before,
-.jw-skin-baeble .jw-text-elapsed,
-.jw-skin-baeble .jw-text-duration {
-    padding: 0 .7em;
-}
-
-/* Removes icon padding to align the playlist header icon with the items in the playlist. */
-.jw-skin-baeble .jw-controlbar .jw-icon-prev:before {
-    padding-right: .25em;
-}
-
-/* Removes icon padding to align the playlist header icon with the items in the playlist. */
-.jw-skin-baeble .jw-controlbar .jw-icon-playlist:before {
-    padding: 0 .45em;
-}
-
-.jw-skin-baeble .jw-controlbar .jw-icon-next:before {
-    padding-left: .25em
-}
-
-/* Sets the style for the prev and next icons. */
-.jw-skin-baeble .jw-icon-prev,
-.jw-skin-baeble .jw-icon-next {
-    font-size: .7em
-}
-
-/* Adds the spacer style to between the play icon and the previous icon. */
-.jw-skin-baeble .jw-icon-prev:before {
-  border-left: 1px solid #666;
-}
-
-/* Adds the spacer style to between the next item and current time.  */
-.jw-skin-baeble .jw-icon-next:before {
-  border-right: 1px solid #666;
-}
-
-/* Color of the display icon */
-.jw-skin-baeble .jw-icon-display {
-  color: #fff;
-}
-
-/* Centers the display icon in it's container */
-.jw-skin-baeble .jw-icon-display:before {
+.jw-skin-ethan .jw-icon-playback:before,
+.jw-skin-ethan .jw-icon-display:before {
   padding-left: 0;
 }
 
-/* Turns the display icon container into a circle. */
-.jw-skin-baeble .jw-display-icon-container {
-    border-radius: 50%;
-    border: 1px solid #333
+/* Sets the font size of the previous and next icons as well as the space between them.*/
+.jw-skin-ethan .jw-icon-prev,
+.jw-skin-ethan .jw-icon-next {
+  font-size: 1em;
+  padding: 0 0 0 0;
 }
 
-/* Styles the timeslider rail */
-.jw-skin-baeble .jw-rail {
-  background-color: #384154;
+
+.jw-skin-ethan .jw-icon-prev:before {
+  border-left: 2px solid yelloe;
+}
+
+.jw-skin-ethan .jw-icon-next:before {
+  border-right: 2px solid yellow;
+  padding-right: 1em;
+}
+
+/* Default color of the Play, Replay, and Buffering display icons. */
+.jw-skin-ethan .jw-icon-display {
+  color: #ff9600;
+}
+
+/* Sets the shape of the display icon container. This is a circle.*/
+
+.jw-skin-ethan .jw-display-icon-container {
+  background: #fff;
+  border-radius: 50%;
+  padding: 0 1em;
+  border: 5px solid yellow;
+}
+
+
+.jw-skin-ethan.jw-state-idle .jw-display-icon-container {
+  padding: 0 0 0 .5em;
+}
+
+.jw-skin-ethan .jw-slider-horizontal .jw-rail,
+.jw-skin-ethan .jw-slider-vertical .jw-rail {
+  background-color: green;
   box-shadow: none;
 }
 
-/* Sets the color for the buffer of the timeslider rail. */
-.jw-skin-baeble .jw-buffer {
-    background-color: #666f82
+.jw-skin-ethan .jw-slider-horizontal .jw-buffer,
+.jw-skin-ethan .jw-slider-vertical .jw-buffer {
+  background-color: orange;
 }
 
-/* Sets the style for the elaspesd progress. */
-.jw-skin-baeble .jw-progress {
-    background: #f37821
+.jw-skin-ethan .jw-slider-horizontal .jw-progress,
+.jw-skin-ethan .jw-slider-vertical .jw-progress {
+  background: purple;
 }
 
-/* Sets the width of the knob's container */
-.jw-skin-baeble .jw-knob {
-    width: .6em;
-    height: .6em;
-    background-color: #fff;
-    box-shadow: 0 0 0 1px #000;
-    border-radius: 1em
+.jw-skin-ethan .jw-slider-horizontal .jw-knob,
+.jw-skin-ethan .jw-slider-vertical .jw-knob {
+  top: -0.19999999999999998em;
 }
 
-/* Sets the height for the horizontal slider container. */
-.jw-skin-baeble .jw-slider-horizontal .jw-slider-container {
-    height: .95em
+.jw-skin-ethan .jw-slider-horizontal .jw-knob:after,
+.jw-skin-ethan .jw-slider-vertical .jw-knob:after {
+  background-color: #333;
+  box-shadow: 0px 0px 0px 1px #fff;
+  width: 1em;
+  height: 1em;
+  border-radius: 1em;
 }
 
-/* Sets the height for the horizontal slider elements. */
-.jw-skin-baeble .jw-slider-horizontal .jw-rail,
-.jw-skin-baeble .jw-slider-horizontal .jw-buffer,
-.jw-skin-baeble .jw-slider-horizontal .jw-progress {
-    height: .2em;
-    border-radius: 0
+.jw-skin-ethan .jw-slider-horizontal .jw-slider-container {
+  height: 1em;
 }
 
-
-/* Centers the knob vertically. */
-.jw-skin-baeble .jw-slider-horizontal .jw-knob {
-    top: -0.19999999999999998em
+.jw-skin-ethan .jw-slider-horizontal .jw-rail,
+.jw-skin-ethan .jw-slider-horizontal .jw-buffer,
+.jw-skin-ethan .jw-slider-horizontal .jw-progress {
+  height: 0.5em;
+  border-radius: 0;
 }
 
-/* Cetners the timeslider cuepoints vertically. */
-.jw-skin-baeble .jw-slider-horizontal .jw-cue {
-    top: -0.04999999999999999em;
-    width: .3em;
-    height: .3em;
-    background-color: #fff;
-    border-radius: 50%
+.jw-skin-ethan .jw-slider-horizontal .jw-knob {
+  top: -15%;
 }
 
-/* Sets the width for the vertical slider elements. */
-.jw-skin-baeble .jw-slider-vertical .jw-rail,
-.jw-skin-baeble .jw-slider-vertical .jw-buffer,
-.jw-skin-baeble .jw-slider-vertical .jw-progress {
-    width: .2em
+.jw-skin-ethan .jw-slider-horizontal .jw-cue {
+  top: -0.04999999999999999em;
 }
 
-
-/* Sets the position of the volume slider container. */
-.jw-skin-baeble .jw-volume-tip {
-    width: 100%;
-    left: -45%;
-    padding-bottom: .7em
+.jw-skin-ethan .jw-slider-horizontal .jw-cue:after {
+  width: .3em;
+  height: .3em;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
-/* Sets the color of the duration text in the controlbar. */
-.jw-skin-baeble .jw-text-duration {
-    color: #666f82
+.jw-skin-ethan .jw-slider-vertical .jw-rail,
+.jw-skin-ethan .jw-slider-vertical .jw-buffer,
+.jw-skin-ethan .jw-slider-vertical .jw-progress {
+  width: .2em;
 }
 
-/* Adds a left border as a spacer between all contorlbar icons. */
-.jw-skin-baeble .jw-controlbar-right-group .jw-icon-tooltip:before,
-.jw-skin-baeble .jw-controlbar-right-group .jw-icon-inline:before {
-    border-left: 1px solid #666
+.jw-skin-ethan .jw-knob {
+  left: -0.04999999999999999em;
 }
 
-/* Removes the border from the first icon after the time duration text. */
-.jw-skin-baeble .jw-controlbar-right-group .jw-icon-inline:first-child:before {
-    border: 0
+.jw-skin-ethan .jw-volume-tip {
+  width: 100%;
+  left: -35%;
 }
 
-/* This styles the dock icons into a circle. */
-.jw-skin-baeble .jw-dock .jw-dock-button {
-    border-radius: 50%;
-    border: 1px solid #333
+.jw-skin-ethan .jw-text-duration {
+  color: blue;
 }
 
-/* This styles tooltip for dock text background. */
-.jw-skin-baeble .jw-dock .jw-overlay {
-    border-radius: 2.5em
+/* The parent wrapper that contains the controlbar element positioning groups.  */
+.jw-skin-ethan .jw-group {
+  vertical-align: middle;
 }
 
-/*This sets the font color and background color for the active item in HD and CC menus. */
-.jw-skin-baeble .jw-icon-tooltip .jw-active-option {
-    background-color: #f37821;
-    color: #fff
+.jw-skin-ethan .jw-controlbar-right-group .jw-icon-tooltip:before,
+.jw-skin-ethan .jw-controlbar-right-group .jw-icon-inline:before {
+  border-left: 1px solid #666;
 }
 
-/* Sets a min width for the volume container so that when it changes between mute and volume, the controlbar does not shift. */
-.jw-skin-baeble .jw-icon-volume {
-    min-width: 2.6em
+.jw-skin-ethan .jw-controlbar-right-group .jw-icon-inline:first-child:before {
+  border: none;
 }
 
-/* Sets the style for the time tooltip, menu, volume. */
-.jw-skin-baeble .jw-time-tip,
-.jw-skin-baeble .jw-menu,
-.jw-skin-baeble .jw-volume-tip,
-.jw-skin-baeble .jw-skip {
-    border: 1px solid #333
+.jw-skin-ethan .jw-dock .jw-dock-button {
+  background: #000;
+  border-radius: 50%;
 }
 
-/* Sets the position for the time tooltip. */
-.jw-skin-baeble .jw-time-tip {
-    padding: .2em;
-    bottom: 1.3em
+.jw-skin-ethan .jw-dock .jw-overlay {
+  background: #000;
+  border-radius: 2.5em;
 }
 
-/* Sets the position for the vertical volume slider. */
-.jw-skin-baeble .jw-menu,
-.jw-skin-baeble .jw-volume-tip {
-    bottom: .24em
+.jw-skin-ethan .jw-overlay .jw-option.jw-active-option {
+  background-color: #ff0046;
+  color: #fff;
 }
 
-/* Sets the shape of the skip icon. */
-.jw-skin-baeble .jw-skip {
-    padding: .4em;
-    border-radius: 1.75em
+.jw-skin-ethan .jw-icon-hd,
+.jw-skin-ethan .jw-icon-cc {
+  color: #ff0046;
 }
 
-/* Sets the style for the skip text. */
-.jw-skin-baeble .jw-skip .jw-text,
-.jw-skin-baeble .jw-skip .jw-icon-inline {
-    color: #fff;
-    line-height: 1.75em
+.jw-skin-ethan .jw-icon-hd.jw-off,
+.jw-skin-ethan .jw-icon-cc.jw-off {
+  color: white;
 }
-.jw-skin-baeble .jw-skip.jw-skippable:hover .jw-text,
-.jw-skin-baeble .jw-skip.jw-skippable:hover .jw-icon-inline {
-    color: #f37821
+
+/* Sets the character for the HD button */
+.jw-skin-ethan .jw-icon-hd.jw-off:before {
+  content: "\e60a";
+}
+
+/* Sets the character for the CC button */
+.jw-skin-ethan .jw-icon-cc.jw-off:before {
+  content: "\e605";
+}
+
+/* Sets the border style for the time overlay menus. */
+.jw-skin-ethan .jw-time-tip,
+.jw-skin-ethan .jw-menu,
+.jw-skin-ethan .jw-volume-tip,
+.jw-skin-ethan .jw-skip {
+  border: 1px solid #333;
+}
+
+/* Adds padding and margin to the timeslider time tooltip.*/
+.jw-skin-ethan .jw-time-tip {
+  padding: 0.2em;
+  bottom: 1.3em;
+}
+
+/* Adjusts the margin of the vertical volume slider for borders spacing*/
+.jw-skin-ethan .jw-menu,
+.jw-skin-ethan .jw-volume-tip {
+  bottom: .15em;
+}
+
+/* Styles the skip icon wrapper.*/
+.jw-skin-ethan .jw-skip {
+  background: #000;
+  padding: 0.4em;
+  border-radius: 1em;
+}
+
+/* Sets the font color and size for the skip text. */
+
+.jw-skin-ethan .jw-skip .jw-text,
+.jw-skin-ethan .jw-skip .jw-icon-inline {
+  color: #ffffff;
+  font-size: 0.7em;
+}
+
+/* Sets the font color for the CC icon when it is active. */
+.jw-skin-ethan .jw-icon-cc {
+  color: #ff0046;
+}
+
+/* Sets the font color for the CC icon when it is not active. */
+.jw-skin-ethan .jw-icon-cc.jw-off {
+  color: #ffffff;
 }
