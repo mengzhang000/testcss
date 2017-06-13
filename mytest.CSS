@@ -99,7 +99,7 @@
 
 .jw-skin-ethan .jw-slider-horizontal .jw-knob:after,
 .jw-skin-ethan .jw-slider-vertical .jw-knob:after {
-  background-color: #333;
+  background-color: orange;
   box-shadow: 0px 0px 0px 1px #fff;
   width: 1em;
   height: 1em;
