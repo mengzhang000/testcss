@@ -161,8 +161,9 @@ active configuration in the skin block.*/
 
 /* Turns the display icon container into a circle. */
 .jw-skin-jwtest .jw-display-icon-container {
+    background: rgb(27, 205, 207);
     border-radius: 50%;
-    border: 2px solid rgb(27, 205, 207)
+    /*border: 2px solid rgb(27, 205, 207)*/
 }
 
 /* Styles the timeslider rail */
@@ -303,10 +304,16 @@ active configuration in the skin block.*/
 /* Sets the style for the skip text. */
 .jw-skin-jwtest .jw-skip .jw-text,
 .jw-skin-jwtest .jw-skip .jw-icon-inline {
-    color: #fff;
+    color:rgb(27, 205, 207);
     line-height: 1.75em
 }
 .jw-skin-jwtest .jw-skip.jw-skippable:hover .jw-text,
 .jw-skin-jwtest .jw-skip.jw-skippable:hover .jw-icon-inline {
-    color: rgb(27, 205, 207);
+    color: #ff0046
+}
+
+.jw-skin-jwtest .jw-icon,
+.jw-skin-jwtest .jw-text,
+.jw-skin-jwtest .jw-icon-inline {
+  color: rgb(27, 205, 207);
 }
