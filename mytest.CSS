@@ -3,7 +3,7 @@
 /* The main class for styling the controlbar. */
 .jw-skin-ethan .jw-controlbar {
   background: red;
-  border-top: yellow 1px solid;
+  border-top: rgb(27, 205, 207) 1px solid;
   height: 3.5em;
 }
 
@@ -12,7 +12,7 @@
 .jw-skin-ethan .jw-icon,
 .jw-skin-ethan .jw-text,
 .jw-skin-ethan .jw-icon-inline {
-  color: blue;
+  color: rgb(27, 205, 207);
 }
 
 /* Sets the spacing between icon containers within the control bar. */
@@ -53,7 +53,7 @@
 }
 
 .jw-skin-ethan .jw-icon-next:before {
-  border-right: 2px solid yellow;
+  border-right: 2px solid rgb(27, 205, 207);
   padding-right: 1em;
 }
 
@@ -67,8 +67,8 @@
 .jw-skin-ethan .jw-display-icon-container {
   background: #fff;
   border-radius: 50%;
-  padding: 0 1em;
-  border: 5px solid yellow;
+  /*padding: 0 1em;*/
+  border: 5px solid rgb(27, 205, 207);;
 }
 
 
@@ -89,7 +89,7 @@
 
 .jw-skin-ethan .jw-slider-horizontal .jw-progress,
 .jw-skin-ethan .jw-slider-vertical .jw-progress {
-  background: purple;
+  background: rgb(27, 205, 207);
 }
 
 .jw-skin-ethan .jw-slider-horizontal .jw-knob,
@@ -148,7 +148,7 @@
 }
 
 .jw-skin-ethan .jw-text-duration {
-  color: blue;
+  color: rgb(27, 205, 207);
 }
 
 /* The parent wrapper that contains the controlbar element positioning groups.  */
