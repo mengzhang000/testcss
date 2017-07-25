@@ -170,6 +170,11 @@ active configuration in the skin block.*/
     /*border: 2px solid rgb(27, 205, 207)*/
 }
 
+.jw-skin-animoto_app .jw-display-icon-container:active {
+    background: rgb(0, 140, 149);
+    border-radius: 50%;
+}
+
 /* Styles the timeslider rail */
 .jw-skin-animoto_app .jw-rail {
   background-color: #384154;
