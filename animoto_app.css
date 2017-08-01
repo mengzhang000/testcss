@@ -165,13 +165,12 @@ active configuration in the skin block.*/
 
 /* Turns the display icon container into a circle. */
 .jw-skin-animoto_app .jw-display-icon-container {
-    background: rgb(27, 205, 207);
+    background: #1bcdcf;
     border-radius: 50%;
-    /*border: 2px solid rgb(27, 205, 207)*/
 }
 
 .jw-skin-animoto_app .jw-display-icon-container:active {
-    background: rgb(0, 140, 149);
+    background: #008c95;
     border-radius: 50%;
 }
 
@@ -188,7 +187,7 @@ active configuration in the skin block.*/
 
 /* Sets the style for the elaspesd progress. */
 .jw-skin-animoto_app .jw-progress {
-    background: rgb(27, 205, 207);
+    background: #1bcdcf;
 }
 
 /* Sets the width of the knob's container */
@@ -215,7 +214,7 @@ active configuration in the skin block.*/
 
 .jw-skin-animoto_app .jw-slider-horizontal .jw-progress,
 .jw-skin-animoto_app .jw-slider-vertical .jw-progress {
-  background: rgb(27, 205, 207);
+  background: #1bcdcf;
 }
 
 /* Centers the knob vertically. */
@@ -248,16 +247,8 @@ active configuration in the skin block.*/
 
 /* Sets the color of the duration text in the controlbar. */
 .jw-skin-animoto_app .jw-text-duration {
-    color: rgb(27, 205, 207);
+    color: #1bcdcf;
 }
-
-/* Adds a left border as a spacer between all controlbar icons. */
-/*
-.jw-skin-animoto_app .jw-controlbar-right-group .jw-icon-tooltip:before,
-.jw-skin-animoto_app .jw-controlbar-right-group .jw-icon-inline:before {
-    border-left: 1px solid #666
-}
-*/
 
 /* Removes the border from the first icon after the time duration text. */
 .jw-skin-animoto_app .jw-controlbar-right-group .jw-icon-inline:first-child:before {
@@ -315,7 +306,7 @@ active configuration in the skin block.*/
 /* Sets the style for the skip text. */
 .jw-skin-animoto_app .jw-skip .jw-text,
 .jw-skin-animoto_app .jw-skip .jw-icon-inline {
-    color:rgb(27, 205, 207);
+    color:#1bcdcf;
     line-height: 1.75em
 }
 .jw-skin-animoto_app .jw-skip.jw-skippable:hover .jw-text,
@@ -326,5 +317,5 @@ active configuration in the skin block.*/
 .jw-skin-animoto_app .jw-icon,
 .jw-skin-animoto_app .jw-text,
 .jw-skin-animoto_app .jw-icon-inline {
-  color: rgb(27, 205, 207);
+  color: #1bcdcf;
 }
