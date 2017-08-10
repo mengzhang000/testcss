@@ -314,8 +314,14 @@ active configuration in the skin block.*/
     color: #ff0046
 }
 
+/* Sets the control bar text and icon color. */
 .jw-skin-animoto_app .jw-icon,
 .jw-skin-animoto_app .jw-text,
 .jw-skin-animoto_app .jw-icon-inline {
-  color: #1bcdcf;
+  color: #fff;
+}
+
+/* Sets the hd icon color. */
+.jw-skin-animoto_app .jw-icon-hd {
+    color: #1bcdcf;
 }
