@@ -325,3 +325,9 @@ active configuration in the skin block.*/
 .jw-skin-animoto_app .jw-icon-hd {
     color: #1bcdcf;
 }
+
+/* Sets control bar always visible. */
+.jw-state-playing .jw-controlbar {
+    visibility: visible !important;
+    opacity: 100 !important;
+}
